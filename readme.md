@@ -58,7 +58,7 @@ cicd-nodejs-demo/
 
 
 # Clone this repo
-git clone https://github.com/yourusername/cicd-nodejs-demo.git
+git clone https://github.com/CliffordIsaboke/cicd-nodejs-demo.git
 cd cicd-nodejs-demo
 
 # Run the app locally
