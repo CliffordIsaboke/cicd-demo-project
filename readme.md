@@ -1,8 +1,8 @@
-# 🚀 Node.js CI/CD Pipeline for Production Deployment
+# Node.js CI/CD Pipeline for Production Deployment
 
 This project demonstrates a **production-grade CI/CD pipeline** built for a Node.js application using **Jenkins**, **Docker**, **Trivy**, **SonarQube**, **Kubernetes**, and other modern DevOps tools.
 
-It is inspired by a real-world pipeline built for enterprise use (originally implemented in Java and private repo), and recreated here in Node.js for **open-source sharing**, **community contribution**, and **technical demonstration** purposes.
+It is inspired by a real-world pipeline built for enterprise use (originally implemented in Java), and recreated here in Node.js for **open-source sharing**, **community contribution**, and **technical demonstration** purposes.
 
 ---
 
