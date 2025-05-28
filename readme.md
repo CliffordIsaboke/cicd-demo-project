@@ -37,7 +37,7 @@ cicd-nodejs-demo/
 
 ---
 
-## 🧪 Pipeline Stages Overview
+## Pipeline Stages Overview
 
 1. **Git Checkout** – Clones the main branch using Jenkins credentials  
 2. **Install Dependencies** – Runs `npm install`  
@@ -74,26 +74,22 @@ kubectl apply -f kubernetes/deployment-service.yaml
 kubectl get pods -n webapps
 kubectl get svc -n webapps
 
-## Prerequisites
+---
+
+
+#Prerequisites
 Jenkins server with:
+*NodeJS plugin
+*SonarQube plugin
+*Email Extension plugin
+*Trivy installed
 
-NodeJS plugin
-
-SonarQube plugin
-
-Email Extension plugin
-
-Trivy installed
 
 Configured tools:
-
-Sonar Scanner
-
-Docker
-
-Kubernetes cluster access
-
-Valid credentials stored in Jenkins
+*Sonar Scanner
+*Docker
+*Kubernetes cluster access
+*Valid credentials stored in Jenkins
 
 #Contact
 Maintainer: Clifford Isaboke
