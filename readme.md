@@ -32,8 +32,7 @@ cicd-nodejs-demo/
 ├── sonar-project.properties # SonarQube configuration
 ├── trivy-fs-report.html # (Generated) Filesystem scan report
 ├── trivy-image-report.html # (Generated) Docker image scan report
-└── kubernetes/
-└── deployment-service.yaml
+└── kubernetes/deployment-service.yaml
 
 
 ---
