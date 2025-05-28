@@ -79,17 +79,17 @@ kubectl get svc -n webapps
 
 # Prerequisites
 # Jenkins server with:
-*NodeJS plugin
-*SonarQube plugin
-*Email Extension plugin
-*Trivy installed
+|NodeJS plugin
+|SonarQube plugin
+|Email Extension plugin
+|Trivy installed
 
 
 # Configured tools:
-*Sonar Scanner
-*Docker
-*Kubernetes cluster access
-*Valid credentials stored in Jenkins
+|Sonar Scanner
+|Docker
+|Kubernetes cluster access
+|Valid credentials stored in Jenkins
 
 # Contact
 Maintainer: Clifford Isaboke
