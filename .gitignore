@@ -24,3 +24,6 @@ lcov-report/
 
 # Kubernetes config (if sensitive)
 *.kubeconfig
+
+# Trivy scan reports (generated during CI for vulnerability analysis)
+trivy-*.html
