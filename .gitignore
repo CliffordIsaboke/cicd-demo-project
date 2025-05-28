@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+
+# Trivy Reports
+trivy-*.html
+
+# Sonar & Coverage
+.sonar/
+coverage/
+lcov-report/
+*.lcov
+
+# System files
+.DS_Store
+.env
+.vscode/
+.idea/
+
+# Kubernetes config (if sensitive)
+*.kubeconfig

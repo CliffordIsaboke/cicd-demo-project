@@ -1,0 +1,24 @@
+# Node modules (should be rebuilt inside the container)
+node_modules/
+
+# Logs and temp files
+*.log
+
+# Local config
+.env
+.vscode/
+.idea/
+
+# Git and Docker files
+.git
+.gitignore
+.dockerignore
+
+# Trivy reports
+trivy-*.html
+
+# Sonar and coverage
+.sonar/
+coverage/
+*.lcov
+lcov-report/
