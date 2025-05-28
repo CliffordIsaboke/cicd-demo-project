@@ -6,7 +6,7 @@ It is inspired by a real-world pipeline built for enterprise use (originally imp
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## Technologies & Tools Used
 
 | Tool | Purpose |
 |------|---------|
@@ -22,7 +22,7 @@ It is inspired by a real-world pipeline built for enterprise use (originally imp
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 cicd-nodejs-demo/
 ├── app.js # Simple Express server
@@ -54,9 +54,9 @@ cicd-nodejs-demo/
 
 ---
 
-## 📦 How to Run Locally
+## How to Run Locally
 
-```bash
+
 # Clone this repo
 git clone https://github.com/yourusername/cicd-nodejs-demo.git
 cd cicd-nodejs-demo
@@ -77,25 +77,25 @@ kubectl get svc -n webapps
 ---
 
 
-#Prerequisites
-Jenkins server with:
+# Prerequisites
+# Jenkins server with:
 *NodeJS plugin
 *SonarQube plugin
 *Email Extension plugin
 *Trivy installed
 
 
-Configured tools:
+# Configured tools:
 *Sonar Scanner
 *Docker
 *Kubernetes cluster access
 *Valid credentials stored in Jenkins
 
-#Contact
+# Contact
 Maintainer: Clifford Isaboke
 Email: isabokec@gmail.com
 
-#License
+# License
 MIT License — free to use and adapt with attribution.
 
 
