@@ -141,7 +141,7 @@ pipeline {
                     subject: "${jobName} - Build ${buildNumber} - ${pipelineStatus.toUpperCase()}",
                     body: body,
                     to: 'isabokec@gmail.com',
-                    from: 'devops@wiltac.co.ke',
+                    from: 'devops@example.co.ke',
                     replyTo: 'isabokec@gmail.com',
                     mimeType: 'text/html',
                     attachmentsPattern: 'trivy-image-report.html'
