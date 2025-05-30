@@ -74,6 +74,7 @@ kubectl apply -f kubernetes/deployment-service.yaml
 kubectl get pods -n webapps
 kubectl get svc -n webapps
 
+
 ---
 
 
