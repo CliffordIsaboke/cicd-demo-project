@@ -59,7 +59,7 @@ pipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
-                        sh "docker build -t isaboke/nodejs-demo:latest ."
+                        sh "docker build -t isaboke/cicd-pipeline:latest ."
                     }
                 }
             }
@@ -67,7 +67,7 @@ pipeline {
 
         stage('Docker Image Scan') {
             steps {
-                sh 'trivy image --format table -o trivy-image-report.html isaboke/nodejs-demo:latest'
+                sh 'trivy image --format table -o trivy-image-report.html isaboke/cicd-pipeline:latest'
             }
         }
 
@@ -75,7 +75,7 @@ pipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
-                        sh 'docker push isaboke/nodejs-demo:latest'
+                        sh 'docker push isaboke/cicd-pipeline:latest'
                     }
                 }
             }
