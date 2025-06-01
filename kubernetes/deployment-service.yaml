@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejs-demo
-        image: isaboke/nodejs-demo:latest
+        image: isaboke/cicd-pipeline:latest
         ports:
         - containerPort: 3000
 ---
