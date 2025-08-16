@@ -94,7 +94,7 @@ kubectl get svc -n webapps
 
 # Contact
 Maintainer: Clifford Isaboke
-Email: isabokec@gmail.com
+Email: isabokecliff@gmail.com
 
 # License
 MIT License — free to use and adapt with attribution.
