@@ -25,13 +25,13 @@ It is inspired by a real-world pipeline built for enterprise use (originally imp
 ## Project Structure
 
 cicd-nodejs-demo/
-- app.js # Simple Express server
-- package.json # Node dependencies
-- Dockerfile # Docker build file
-- Jenkinsfile # Jenkins pipeline
-- sonar-project.properties # SonarQube configuration
-- trivy-fs-report.html # (Generated) Filesystem scan report
-- trivy-image-report.html # (Generated) Docker image scan report
+- app.js(Simple Express server)
+- package.json (Node dependencies)
+- Dockerfile (Docker build file)
+- Jenkinsfile (Jenkins pipeline)
+- sonar-project.properties (SonarQube configuration)
+- trivy-fs-report.html  (Generated-Filesystem scan report)
+- trivy-image-report.html (Generated-Docker image scan report)
 - kubernetes/deployment-service.yaml
 
 
